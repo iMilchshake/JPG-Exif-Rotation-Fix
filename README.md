@@ -1,4 +1,4 @@
-# JPG-Exif-Rotation-Fix
+# JPG Exif Rotation Fix
 Some devices (like digital photo frames) dont use JPG's Exif Metadata when displaying Pictures. This can result in poorly rotated pictures. This Batch will simply apply the needed rotation(without quality loss!) to each picture and then edit the Exif Metadata, so that every device can display the Pictures correctly, without Exif Support.
 
 This Batch uses [Jhead](http://www.sentex.net/~mwandel/jhead/) and [Jpegtran](https://jpegclub.org/jpegtran/).
